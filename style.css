@@ -54,11 +54,12 @@ select {
 }
 
 .item {
-    display: none;
+    opacity: 0.65;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .item.active {
-    display: block;
+    opacity:1;
 }
 
 /* Tablet/Desktop overrides */
